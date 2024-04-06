@@ -1,3 +1,4 @@
 <template>
-    <AboutWithCounter />
+    <AboutServer />
+    <Counter />
 </template>

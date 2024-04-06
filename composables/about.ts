@@ -1,4 +1,4 @@
-//import { doc, getDoc } from "firebase/firestore"
+import { doc, getDoc } from "firebase/firestore"
 
 type AboutDoc = {
     name: string
@@ -6,6 +6,8 @@ type AboutDoc = {
 }
 
 export const useAbout = async () => {
+
+    /*
 
     // emulate Firebase call
 
@@ -17,8 +19,7 @@ export const useAbout = async () => {
         return
     })
 
-
-    /*
+    */
 
     // runs on both server and client
 
@@ -41,6 +42,4 @@ export const useAbout = async () => {
     }
 
     return data as AboutDoc
-
-    */
 }
