@@ -11,5 +11,5 @@ const data = await useAbout()
             <p>{{ data.description }}</p>
         </div>
     </div>
-    <Counter nuxt-client />
+    <Counter  />
 </template>
