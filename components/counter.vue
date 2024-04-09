@@ -14,9 +14,9 @@
 
 <script setup lang="ts">
 
-const count = ref<number>(0);
+const count = ref<number>(0)
 
 function increment() {
-    count.value++;
+    count.value++
 }
 </script>

@@ -1,4 +1,5 @@
 <template>
-    <AboutServer />
-    <Counter />
+    <AboutServer>
+        <Counter />
+    </AboutServer>
 </template>

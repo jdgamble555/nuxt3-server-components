@@ -1,3 +1,6 @@
 <template>
-    <About />
+    <div>
+        <About />
+        <slot />
+    </div>
 </template>

@@ -7,20 +7,6 @@ type AboutDoc = {
 
 export const useAbout = async () => {
 
-    /*
-
-    // emulate Firebase call
-
-    return new Promise<AboutDoc>((resolve) => {
-        resolve({
-            name: 'From Server',
-            description: 'Some Description'
-        })
-        return
-    })
-
-    */
-
     // runs on both server and client
 
     const runtimeConfig = useRuntimeConfig()
