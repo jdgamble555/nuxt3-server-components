@@ -1,3 +1,3 @@
 <template>
-    <AboutClient />
+    <About />
 </template>
