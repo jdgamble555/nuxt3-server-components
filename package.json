@@ -17,7 +17,6 @@
   "devDependencies": {
     "autoprefixer": "^10.4.19",
     "firebase": "^10.10.0",
-    "nitro-cloudflare-dev": "^0.1.4",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3"
   }

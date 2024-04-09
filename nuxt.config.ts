@@ -1,9 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["nitro-cloudflare-dev"],
   experimental: {
-    componentIslands: true
+    componentIslands: true,
+    appManifest: false
   },
   runtimeConfig: {
     public: {
