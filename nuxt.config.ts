@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   experimental: {
     componentIslands: {
-      selectiveClient: 'deep'
+      selectiveClient: true
     }
   },
   runtimeConfig: {
