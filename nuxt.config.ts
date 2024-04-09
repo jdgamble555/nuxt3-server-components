@@ -2,8 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   experimental: {
-    componentIslands: true,
-    appManifest: false
+    componentIslands: true
   },
   runtimeConfig: {
     public: {
