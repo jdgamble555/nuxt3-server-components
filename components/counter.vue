@@ -1,3 +1,12 @@
+<script setup lang="ts">
+
+const count = ref<number>(0)
+
+function increment() {
+    count.value++
+}
+</script>
+
 <template>
     <div class="flex flex-col items-center">
         <p class="flex gap-3">
@@ -11,12 +20,3 @@
         </button>
     </div>
 </template>
-
-<script setup lang="ts">
-
-const count = ref<number>(0)
-
-function increment() {
-    count.value++
-}
-</script>
